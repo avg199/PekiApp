@@ -1,0 +1,376 @@
+.list-block {
+  margin: 0px 0;
+  font-size: 16px;
+}
+.col-25{
+    padding:5px;
+    text-align: center;
+}
+
+.centre{
+    text-align:center;
+}
+
+.myapp-margin-top{
+    margin-top: 56px;
+}
+.myapp-margin-bottom{
+    margin-bottom: 60px;
+}
+
+.material-margin-left{
+    /*margin-left: 20px;*/
+    padding-left: 16px;
+}
+.material-margin-right{
+    /*margin-left: 20px;*/
+    padding-right: 16px;
+}
+
+.hide{
+    display: none;
+}
+
+.dimensio_foto{
+    width: 128px;
+    height: 117px;
+}
+
+.dimensioAnimalPerfil{
+    width: 64px;
+    height: 64px;
+    border-radius:50%;
+}
+
+.img-cercle{
+    border-radius: 50%;
+    height:120px;
+    width:120px;
+}
+
+.card1 {
+    width: 150px;
+  background: #fff;
+  margin: 8px;
+  position: relative;
+  border-radius: 2px;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.cardheader-centre{
+    text-align:center;
+    display:block;
+}
+
+.contact-header{
+    display: flex;
+}
+
+.item-photo{
+    flex-shrink: 0;
+    margin: 20px;
+}
+
+.contact-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.map-container {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 45px);
+}
+#map-canvas {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 45px);
+}
+
+i.icon.icon-perfil {
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/menu/User.png");
+}
+
+.demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+}
+
+i.icon.icon-gosperfil {
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/menu/gosperfil.png");
+}
+
+i.icon.icon-pets {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/menu/i-form-pets-material.svg");
+}
+
+i.icon.icon-pets2 {
+    width: 128px;
+    height: 128px;
+    background-image: url("../images/menu/i-form-pets2-material.svg");
+}
+
+i.icon.icon-buscar {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/menu/i-form-buscar-material.svg");
+}
+
+i.icon.icon-buscar2 {
+    width: 128px;
+    height: 128px;
+    background-image: url("../images/menu/i-form-buscar2-material.svg");
+}
+
+i.icon.icon-exit {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/menu/i-form-exit-material.svg");
+}
+
+i.icon.icon-exit2 {
+    width: 128px;
+    height: 128px;
+    background-image: url("../images/menu/i-form-exit2-material.svg");
+}
+
+i.icon.icon-serveisb {
+    width: 128px;
+    height: 128px;
+    background-image: url("../images/menu/i-form-serveis2-material.svg");
+}
+
+i.icon.icon-serveis {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/menu/i-form-serveis-material.svg");
+}
+
+i.icon.icon-inici {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/menu/i-form-inici-material.svg");
+}
+
+i.icon.icon-map {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/LostFind/ic_map_white_48px.svg");
+}
+
+i.icon.icon-location {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/perfil/ic_location_on_black_48px.svg");
+}
+
+i.icon.icon-edita {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/perfil/ic_mode_edit_black_48px.svg");
+}
+
+i.icon.icon-borrar {
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/perfil/ic_delete_black_48px.svg");
+}
+
+i.icon.icon-todays {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-calendar-material.svg");
+}
+
+i.icon.icon-today-1 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-1.png");
+}
+i.icon.icon-today-2 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-2.png");
+}
+i.icon.icon-today-3 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-3.png");
+}
+i.icon.icon-today-4 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-4.png");
+}
+i.icon.icon-today-5 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-5.png");
+}
+i.icon.icon-today-6 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-6.png");
+}
+i.icon.icon-today-7 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-7.png");
+}
+i.icon.icon-today-8 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-8.png");
+}
+i.icon.icon-today-9 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-9.png");
+}
+i.icon.icon-today-10 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-10.png");
+}
+i.icon.icon-today-11 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-11.png");
+}
+i.icon.icon-today-12 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-12.png");
+}
+i.icon.icon-today-13 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-13.png");
+}
+i.icon.icon-today-14 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-14.png");
+}
+i.icon.icon-today-15 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-15.png");
+}
+i.icon.icon-today-16 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-16.png");
+}
+i.icon.icon-today-17 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-17.png");
+}
+i.icon.icon-today-18 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-18.png");
+}
+i.icon.icon-today-19 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-19.png");
+}
+i.icon.icon-today-20 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-20.png");
+}
+i.icon.icon-today-21 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-21.png");
+}
+i.icon.icon-today-22 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-22.png");
+}
+i.icon.icon-today-23 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-23.png");
+}
+i.icon.icon-today-24 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-24.png");
+}
+i.icon.icon-today-25 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-25.png");
+}
+i.icon.icon-today-26 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-26.png");
+}
+i.icon.icon-today-27 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-27.png");
+}
+i.icon.icon-today-28 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-28.png");
+}
+i.icon.icon-today-29 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-29.png");
+}
+i.icon.icon-today-30 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-30.png");
+}
+i.icon.icon-today-31 {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/i-form-today-material-31.png");
+}
+
+
+
+
+#colorNav > ul > li{ /* will style only the top level li */
+	list-style: none;
+	box-shadow: 0 0 10px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #CCC;
+	display: inline-block;
+	line-height: 1;
+	margin: 1px;
+	border-radius: 3px;
+	/*position:relative;*/
+}
+
+
+#colorNav li.green{
+	/* This is the color of the menu item */
+	background-color:#00c08b;
+
+	/* This is the color of the icon */
+	color:#127a5d;
+}
+
+#colorNav li.red{		background-color:#ea5080;color:#aa2a52;}
+#colorNav li.blue{		background-color:#53bfe2;color:#2884a2;}
+#colorNav li.yellow{	background-color:#f8c54d;color:#ab8426;}
+#colorNav li.purple{	background-color:#df6dc2;color:#9f3c85;}
+#colorNav li.orange{    background-color:#FF9800;color:#C17400;}

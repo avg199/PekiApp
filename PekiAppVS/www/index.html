@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="icon" href="img/icon.png">
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <title>PekiApp</title>
+    <link rel="stylesheet" href="css/framework7.material.min.css" />
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css" />
+    <link rel="stylesheet" href="css/my-app.css" />
+</head>
+<body class="theme-orange" id="cos">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Right panel with reveal effect-->
+    <div class="panel panel-right panel-cover">
+        <div class="content-block">
+            <div class="list-block">
+                <a class="item-link close-panel" href="perfil.html">
+                    <div class="item-content">
+                        <div class="item-media">
+                            <i class="icon icon-perfil"></i>
+                        </div>
+                        <div class="item-inner">
+                            <div class="item-title">Perfil</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="content-block">
+            <div class="content-block-title">Menú</div>
+            <div class="list-block">
+                <ul>
+                    <li>
+                        <a class="item-link close-panel" href="pprincipal.html">
+                            <div class="item-content">
+                                <div class="item-media">
+                                    <i class="icon icon-inici"></i>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title">Inici</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-link close-panel" href="serveis.html">
+                            <div class="item-content">
+                                <div class="item-media">
+                                    <i class="icon icon-serveis"></i>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title">Serveis</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-link close-panel" href="adopcions.html">
+                            <div class="item-content">
+                                <div class="item-media">
+                                    <i class="icon icon-pets"></i>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title">Adopcions</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-link close-panel" href="lostandfind.html">
+                            <div class="item-content">
+                                <div class="item-media">
+                                    <i class="icon icon-buscar"></i>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title">Lost&Find</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="sortir" class="item-link close-panel sortir" href="#" onclick="salir();">
+                            <div class="item-content">
+                                <div class="item-media">
+                                    <i class="icon icon-exit"></i>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title">Sortir</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Views -->
+    <div class="views">
+        <!-- Your main view -->
+        <div class="view view-main">
+            <!-- Pages -->
+            <div class="pages">
+                <div class="page no-toolbar no-swipeback" data-page="index">
+                    <div class="navbar" style="visibility: hidden;">
+                        <div class="navbar-inner">
+                            <div class="left"></div>
+                            <div class="center sliding">PekiApp</div>
+                            <div class="right"></div>
+                        </div>
+                    </div>
+                    <div class="page-content myapp-margin-top">
+                        <div class="page-mag1" style="position: absolute;  background-color: white; left: 0;  top: 0;  width: 100%; height: 100%; z-index: 1000000;"></div>
+                        <div class="col-25">
+                            <img src="images/logotranparent.png">
+                        </div>
+                        <div class="col-25">
+                            <span class="progressbar-infinite"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <!--<script type="text/javascript" src="js/kitchen-sink.js"></script>-->
+
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="scripts/my-app.js"></script>
+
+    <!-- javascripts-->
+    <script type="text/javascript" src="scripts/login.js"></script>
+    <script type="text/javascript" src="scripts/registre.js"></script>
+
+    <script type="text/javascript" src="scripts/principal.js"></script>
+
+    <script type="text/javascript" src="scripts/perfil.js"></script>
+    <script type="text/javascript" src="scripts/editperfil.js"></script>
+    <script type="text/javascript" src="scripts/infoAnimalP.js"></script>
+    <script type="text/javascript" src="scripts/solicotudadopcio.js"></script>
+    <script type="text/javascript" src="scripts/aceptarCites.js"></script>
+    <script type="text/javascript" src="scripts/agenda.js"></script>
+
+    <script type="text/javascript" src="scripts/serveis.js"></script>
+    <script type="text/javascript" src="scripts/tipuServei.js"></script>
+    <script type="text/javascript" src="scripts/infoServei.js"></script>
+    <script type="text/javascript" src="scripts/addServei.js"></script>
+
+    <script type="text/javascript" src="scripts/adopcio.js"></script>
+    <script type="text/javascript" src="scripts/addAdopcio.js"></script>
+    <script type="text/javascript" src="scripts/infoAnimalA.js"></script>
+
+    <script type="text/javascript" src="scripts/lostandfind.js"></script>
+    <script type="text/javascript" src="scripts/infoAnimalL.js"></script>
+    <script type="text/javascript" src="scripts/addAnimal.js"></script>
+    <script type="text/javascript" src="scripts/mapa.js"></script>
+
+    <!--Cordova javascript-->
+    <script type="text/javascript" src="cordova.js"></script>
+
+</body>
+</html>
